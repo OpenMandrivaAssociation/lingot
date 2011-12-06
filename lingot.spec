@@ -8,7 +8,7 @@ Patch0:     lingot-0.9.1-mdv-format-security.patch
 License:    GPLv2
 Group:      Sound
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root
-BuildRequires: gtk2-devel libglade2-devel
+BuildRequires: gtk2-devel libglade2.0-devel
 BuildRequires: intltool
 BuildRequires: libalsa-devel libjack-devel
 

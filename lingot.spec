@@ -11,6 +11,11 @@ URL:		https://www.nongnu.org/%{name}/
 Group:		Sound
 Source0:	https://github.com/ibancg/%{name}/releases/download/v%{version}/%{name}-%{version}.tar.gz
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	intltool >= 0.23
 BuildRequires:	pkgconfig(alsa)
 BuildRequires:	pkgconfig(fftw3)
